@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-image: url('../img/fundoMar.jpg'); 
+    width: 100%; 
+    height: 100%; 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+    background-position: center;
+}
+a{
+    margin: 0 2.5vw;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+nav{
+    padding: 1rem;
+    max-width: 95%;
+    border-radius: 15px;
+    background: rgba( 255, 255, 255, 0.05 );
+    z-index: 2;
+    display: flex; 
+    position: fixed; 
+    width: 100%;
+}
+#nomeEmpresa{
+    color: white; 
+    margin-right: 8vw;
+}
+.container{
+    padding: 1rem 2rem;
+}
+.card{
+    padding: 1rem 1rem 1rem 1rem;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    text-align: left;
+    max-width: 25rem;
+}
+
+.card h3 {
+    opacity: 60%;
+}
+
+.card p {
+    opacity: 50%;
+}
+.cardBox{
+    display: flex; 
+    justify-content: center; 
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+.secoes{
+    margin-top: 12rem; 
+    text-align: center;
+    padding: 3rem 2rem 2rem 2rem; 
+}
+.fundoPretoTransparente{
+    background: rgba(0, 0,0 , 0.36); 
+    border-radius: 15px;
+}
+#imagemCircuito{
+    margin: 2rem 0 2rem; 
+    border-radius: 25px;
+    opacity: 0.9; 
+    width: 50vw;
+}
+#telaInicial{
+    text-align: center;
+    margin-bottom: 15rem;
+    #titulo1{
+        padding-bottom: 10%;
+        font-size: 8vw; 
+        opacity: 70%;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+    #titulo2{
+        padding: 15% 0 0 0; 
+        font-size: 3vw; 
+        letter-spacing: 2px;
+    }
+}
+#secao2{
+
+    #titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7;
+    }
+    #titulo2{
+        font-size: 3vw; 
+        font-weight: bold; 
+        opacity: 0.7;
+    }
+}
+#secao3{
+    #titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao4{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao5{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
+#secao6{
+    .titulo1{
+        font-size: 5vw; 
+        font-weight: bold; 
+        opacity: 0.7; 
+        margin-bottom: 4rem;
+    }
+}
